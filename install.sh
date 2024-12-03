@@ -15,6 +15,7 @@ ln -s $PWD/editor/.vimrc ~/.vimrc
 ln -s $PWD/scripts ~/scripts
 
 sudo ln -s ~/scripts/system/remove_old_logs.sh /usr/local/bin/rm-logs
+sudo ln -s ~/scripts/video/convert/from_m2ts_to_mp4_lossless.sh /usr/local/bin/convert-tvr
 
 # ssh
 

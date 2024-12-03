@@ -1,0 +1,12 @@
+# android
+export PLATFORM="$HOME/platform/android"
+export ASDK="$HOME/Android/Sdk"
+# renault
+export RENAULT="$PLATFORM/vendor/renault"
+export OVERLAY="$RENAULT/product/overlay"
+# miscellaneous
+export PREBUILTS="$HOME/Lab/prebuilts/apps/renault"
+# PATH
+export PATH=$PATH:$ASDK"/platform-tools"
+export PATH=$PATH:$ASDK"/build-tools/34.0.0"
+

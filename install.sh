@@ -12,7 +12,9 @@ ln -s $PWD/editor/.vimrc ~/.vimrc
 
 # scripts
 
-sudo ln -s $PWD/scripts/system/remove_old_logs.sh /usr/local/bin/rm-logs
+ln -s $PWD/scripts ~/scripts
+
+sudo ln -s ~/scripts/system/remove_old_logs.sh /usr/local/bin/rm-logs
 
 # terminal
 

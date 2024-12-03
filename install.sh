@@ -18,3 +18,7 @@ sudo ln -s $PWD/scripts/system/remove_old_logs.sh /usr/local/bin/rm-logs
 
 ln -s $PWD/terminal/.tmux.conf ~/.tmux.conf 
 
+# vcs
+
+ln -s $PWD/vcs/.gitconfig ~/.gitconfig
+

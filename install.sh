@@ -14,6 +14,10 @@ ln -s $PWD/editor/.vimrc ~/.vimrc
 
 sudo ln -s $PWD/scripts/system/remove_old_logs.sh /usr/local/bin/rm-logs
 
+# ssh
+
+ln -s $PWD/ssh/config ~/.ssh/config
+
 # terminal
 
 ln -s $PWD/terminal/.tmux.conf ~/.tmux.conf 

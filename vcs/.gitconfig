@@ -1,7 +1,7 @@
 [user]
   name = Valentin Lafage
   email = vlafage.dev@free.fr
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAc0ecsKDKI/ZhhxwYRSqQMDEXq/2+f8yq5dPKevutxG
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAc0ecsKDKI/ZhhxwYRSqQMDEXq/2+f8yq5dPKevutxG
 [pull]
   rebase = true
 [push]
@@ -24,9 +24,9 @@
 [color]
   ui = auto
 [gpg]
-	format = ssh
+  format = ssh
 [gpg "ssh"]
-	program = /opt/1Password/op-ssh-sign
+  program = /opt/1Password/op-ssh-sign
 [commit]
-	gpgsign = true
+  gpgsign = true
 

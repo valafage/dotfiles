@@ -2,30 +2,32 @@
 
 # bash
 
-ln -s $PWD/bash/.bashrc ~/.bashrc
-ln -s $PWD/bash/.bash_aliases ~/.bash_aliases
-ln -s $PWD/bash/.bash_variables ~/.bash_variables
+ln -sf $PWD/bash/.bashrc ~/.bashrc
+ln -sf $PWD/bash/.bash_aliases ~/.bash_aliases
+ln -sf $PWD/bash/.bash_variables ~/.bash_variables
+
+source ~/.bashrc
 
 # editor
 
-ln -s $PWD/editor/.vimrc ~/.vimrc
+ln -sf $PWD/editor/.vimrc ~/.vimrc
 
 # scripts
 
-ln -s $PWD/scripts ~/scripts
+ln -sf $PWD/scripts ~/scripts
 
-sudo ln -s ~/scripts/system/remove_old_logs.sh /usr/local/bin/rm-logs
-sudo ln -s ~/scripts/video/convert/from_m2ts_to_mp4_lossless.sh /usr/local/bin/convert-tvr
+sudo ln -sf ~/scripts/system/remove_old_logs.sh /usr/local/bin/rm-logs
+sudo ln -sf ~/scripts/video/convert/from_m2ts_to_mp4_lossless.sh /usr/local/bin/convert-tvr
 
 # ssh
 
-ln -s $PWD/ssh/config ~/.ssh/config
+ln -sf $PWD/ssh/config ~/.ssh/config
 
 # terminal
 
-ln -s $PWD/terminal/.tmux.conf ~/.tmux.conf 
+ln -sf $PWD/terminal/.tmux.conf ~/.tmux.conf 
 
 # vcs
 
-ln -s $PWD/vcs/.gitconfig ~/.gitconfig
+ln -sf $PWD/vcs/.gitconfig ~/.gitconfig
 

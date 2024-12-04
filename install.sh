@@ -2,25 +2,27 @@
 
 # bash
 
-ln -s $PWD/bash/.bashrc ~/.bashrc
-ln -s $PWD/bash/.bash_aliases ~/.bash_aliases
-ln -s $PWD/bash/.bash_variables ~/.bash_variables
+ln -sf $PWD/bash/.bashrc ~/.bashrc
+ln -sf $PWD/bash/.bash_aliases ~/.bash_aliases
+ln -sf $PWD/bash/.bash_variables ~/.bash_variables
+
+source ~/.bashrc
 
 # editor
 
-ln -s $PWD/editor/.vimrc ~/.vimrc
+ln -sf $PWD/editor/.vimrc ~/.vimrc
 
 # scripts
 
-ln -s $PWD/scripts ~/scripts
+ln -sf $PWD/scripts ~/scripts
 
-sudo ln -s ~/scripts/system/remove_old_logs.sh /usr/local/bin/rm-logs
+sudo ln -sf ~/scripts/system/remove_old_logs.sh /usr/local/bin/rm-logs
 
 # terminal
 
-ln -s $PWD/terminal/.tmux.conf ~/.tmux.conf 
+ln -sf $PWD/terminal/.tmux.conf ~/.tmux.conf 
 
 # vcs
 
-ln -s $PWD/vcs/.gitconfig ~/.gitconfig
+ln -sf $PWD/vcs/.gitconfig ~/.gitconfig
 

@@ -16,7 +16,8 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
     ],
-    packages=find_packages(),
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
     install_requires=[],
     extras_require={
         "linting": [
@@ -26,4 +27,9 @@ setup(
         ],
     },
     python_requires=">=3.9",
+    entry_points={
+        "console_scripts": [
+            "dotfiles = cli.__main__:main",
+        ],
+    },
 )

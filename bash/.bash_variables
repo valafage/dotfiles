@@ -1,0 +1,16 @@
+# NODE
+export NVM_DIR="$HOME/.nvm"
+# PYTHON
+export PYENV_ROOT="$HOME/.pyenv"
+# SSH
+export SSH_AUTH_SOCK="$HOME/.1password/agent.sock"
+# SDKMAN
+export SDKMAN_DIR="$HOME/.sdkman"
+# TEXLIVE
+export TEXLIVE="/usr/local/texlive/2025/bin/x86_64-linux"
+# ANDROID
+export ANDROID_HOME="/home/workspace/Sdk"
+export ANDROID_SDK_ROOT="$ANDROID_HOME"
+
+# MISC
+export Z="$HOME/Lab/z"
